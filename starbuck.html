@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent1{ 
+        background-color:white;
+        display: flex;
+        margin: 5px;
+        flex-direction: row;
+        color: white;
+      
+    }
+    .parent2{
+        display: flex;
+        background-color: darksalmon;
+        height: 80px;
+ }
+
+ .parent3{
+display: flex;
+height:140px;
+justify-content: space-around;
+ }
+ .parent4{
+    display: flex;
+    /* justify-content: space-around; */
+ }
+ .parent5{
+    display: grid;
+    height: 250px;
+    background-color:chocolate;
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.child1{
+     grid-row: 1/2;
+    grid-column: 2/3; 
+
+}
+.child2{
+grid-row: 2/3;
+grid-column: 3/4;
+}
+</style>
+<body>
+
+   <div class="parent1">
+    <div id="child" class="child1">
+        <img width="30px " style="padding-left: 10px; padding-top: 25px;"  src="https://cdn-icons-png.flaticon.com/512/5977/5977591.png" alt="">
+    </div>
+    <div id="child" class="child2" style="padding: 30px ; color: black;" href="#">Home</div>
+    <div id="child" class="child3" style="padding: 30px ; color: black" href="#">Gift</div>
+    <div id="child" class="submenu" style="padding: 30px ; color: black" href="#">Order
+
+</div>
+    <div id="child" class="child5" style="padding: 30px ; color: black" href="#">Pay</div>
+    
+    <div class="items1" style="padding-left: 800px;"> <img width="40px" src="https://png.pngtree.com/png-clipart/20210915/ourmid/pngtree-avatar-icon-abstract-user-login-icon-png-image_3917181.jpg" alt=""></div>
+</div> 
+<div class="parent2">
+    <h1 style="color: white; font-size: 25px; padding-left: 30px;"  >A world of rewards awaits you! Signup now</h1>
+    <h5 style="border: 2px solid white; border-radius: 10px; margin-left: 50%; color: white; text-align: center; height: 18px; width: 90px;" >Know more</h5>    
+</div>
+<div >
+<h1 style="padding-left: 30px; font-size: 40px;">Handcrafted Curations</h1>
+</div>
+<div class="parent3">
+    <img style="border-radius: 50%;" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Bestseller.jpg" alt="">
+    <img style="border-radius: 50%; ;" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Bestseller.jpg" alt="">
+    <img style="border-radius: 50%;" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Food.jpg" alt="">
+    <img style="border-radius: 50%;" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Merchandise.jpg" alt="">
+    <img style="border-radius: 50%;" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/CoffeeAtHome.jpg" alt="">
+    <img style="border-radius: 50%;" src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/ReadyToEat.jpg" alt="">
+</div>
+<div class="parent4">
+    <p  style="padding-left: 6%;">Bestseller</p>
+     <p style="padding-left: 13%;">    Drinks</p> 
+     <p style="padding-left: 14%;">Food</p>
+     <p style="padding-left: 13%;">Merchandise</p>
+     <p style="padding-left: 10%;">Coffee At Home</p>
+     <p style="padding-left: 11%;">Ready to Eat</p> 
+</div> 
+<div class="parent5">
+<img width="140px" height="230px" src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Frapp_Mocha_Banner_2_611041dedb.png" alt="">
+<div class="child1">
+    <p style="padding-right:1000px;">Irresistible Indulgence 
+    </p>
+    <h3>Mocha Cokie Crumble</h3>
+    <h4 style="border: 2px solid ; border-radius: 10px; width: 90px; color: white; background-color:green; margin-left: 85%; text-align: center; ">Order Now</h4>
+    <p>Richa mocha,crunchy cookies,and very smoothness: A perfect Frappuccino experience!</p>
+    <p style="padding-top: 10px;">Starting from </p>
+    <p style="padding-bottom: 10px;">480/-</p>
+   
+</div>
+
+</div>
+
+</body>
+</html>
